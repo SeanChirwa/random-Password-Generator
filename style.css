@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@500;600;700;800&display=swap');
+body {
+    margin: 0;
+    background-image: url('images/pexels-griffin-wooldridge-4738193.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    border-radius: 9px;
+    padding-left: 45px;
+    display: flex;
+    flex-direction:column;
+    width: 550px;
+    height: 500px;
+    background-color: #1F2937;
+    margin: 20px auto;
+    text-align: start;
+}
+h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    margin-bottom: 10px;
+}
+.container span {
+    color: #4ADF86;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin: 0 0 30px 0;
+    
+}
+
+button {
+    width: 191px;
+    height: 42px;    
+    border-radius: 5px;
+    padding: 9px 15px;
+    background-color: #10B981 ;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0 60px 5px;
+}
+
+input {
+    text-align: center;
+    width: 211px;
+    height: 39px;
+    border: none;
+    color: #55F991;
+    background: #273549;
+    border-radius: 6px;
+    margin-left: -40px;
+}
+#password {
+    display: flex;
+    justify-content: space-around;
+   
+}
